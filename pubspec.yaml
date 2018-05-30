@@ -36,8 +36,13 @@ dependencies:
   path: ^1.4.0
 
 
-  l10n: ">=1.2.7 <2.0.0"
+#  l10n: ">=1.2.7 <2.0.0"
     # path: /Volumes/Daten/DevLocal/DevDart/L10N4Dart
+  l10n:
+    git:
+      url: git://github.com/dudochkin-victor/dart-l10n-gettext.git
+      ref: dc49e198dce90d1d323cbe6bfb027d3bee6532e5
+
 
 dev_dependencies:
 
@@ -50,7 +55,10 @@ dev_dependencies:
   material_icons: any
   grinder: any
   mdl_grinder:
-    git: https://github.com/MikeMitterer/dart-mdl-grinder
+    git:
+      url: git://github.com/dudochkin-victor/dart-mdl-grinder.git
+      ref: 2451be10098202d06c083966296e341982f36a69
+
     # path: /Volumes/Daten/DevLocal/DevDart/MaterialGrinder
 
 transformers:
